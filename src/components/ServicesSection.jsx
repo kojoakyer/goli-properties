@@ -18,7 +18,6 @@ const ServicesSection = () => {
       variants={fadeIn('up', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
       className="max-w-7xl mx-auto px-6 py-20 md:py-28"
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-16 md:gap-20">

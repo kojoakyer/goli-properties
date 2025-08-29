@@ -8,7 +8,6 @@ const ScheduleSection = () => {
       variants={fadeIn('up', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.3 }}
       className="relative bg-gradient-to-b from-gray-50 to-gray-100 px-6 py-20 md:py-28"
     >
       <div className="flex flex-col max-w-7xl mx-auto md:flex-row items-center justify-between gap-16 md:gap-24">

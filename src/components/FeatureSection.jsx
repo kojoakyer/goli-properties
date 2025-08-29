@@ -27,7 +27,6 @@ const FeaturesSection = () => {
       variants={fadeIn('up', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true }}
       className="max-w-7xl mx-auto px-6 py-20"
     >
       {/* Section Header */}

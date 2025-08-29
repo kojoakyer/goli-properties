@@ -34,7 +34,7 @@ function App() {
 
       <Footer/>
     </div>
-    <div className="fixed right-0 bottom-50 p-3" style={{zIndex:"6", left:'initial'}}>
+    <div className="fixed right-0 bottom-30 p-3" style={{zIndex:"6", left:'initial'}}>
       <a href='https://api.whatsapp.com/send?phone=233541131110' target='_blank' >
         <FaWhatsappSquare className='cursor-pointer text-green-500 font-bold  w-12 h-12' />
       </a>

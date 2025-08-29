@@ -33,7 +33,7 @@ const AvailableLands = ({ tabs, defaultActiveIndex = 0, onTabChange }) => {
     arrows: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,

@@ -49,8 +49,11 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section 
+    <motion.section 
       id="testimonials" 
+      variants={fadeIn('up', 0.2)}
+      initial="hidden"
+      whileInView="show"
       className="relative py-16 px-4  mx-auto"
     >
       {/* Dotted Background */}
@@ -170,7 +173,7 @@ const TestimonialsSection = () => {
         </motion.div>
 
       </motion.div>
-    </section>
+    </motion.section>
   );
 };
 
